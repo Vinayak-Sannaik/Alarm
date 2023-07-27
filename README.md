@@ -29,3 +29,9 @@ Contributions are welcome! If you have any suggestions or find any issues, feel 
 - [Font Awesome](https://fontawesome.com/) for the alarm icon.
 - google fonts for fonts
 
+## Q : We want result 🤦‍♀️?
+
+![image](https://github.com/Vinayak-Sannaik/Alarm/assets/112576218/31ad156e-b3d6-43c2-9cf3-5791f14ed891) 
+Check Live - https://vinayak-sannaik.github.io/Alarm/
+
+
