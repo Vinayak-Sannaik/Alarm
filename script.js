@@ -113,7 +113,7 @@ function setAlarms() {
 
         const timeoutId = setTimeout(function () {
             playAlarmSound();
-            alert(`Alarm ${index + 1}: Time's up! Alarm triggered!`);
+            //alert(`Alarm ${index + 1}: Time's up! Alarm triggered!`);
         }, timeUntilAlarm);
 
         alarmTimeouts.push(timeoutId);
