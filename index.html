@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/ddde85d996.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+
+  <title>Alarm</title>
+</head>
+
+<body>
+<audio id="alarmSound" src="sound.wav"></audio>
+  <main>
+    <div class="container">
+      <header>Set Alarm</header>
+      <div class="clockContainer"><div id="clock" style="font-size: 50px; margin: 30px auto;"></div></div>
+      <div class="takeTime">
+        <form>
+
+          <input type="number" min="1" max="12" name="hour" id="hour" placeholder="Hr">
+
+          <input type="number" min="0" max="59" name="minute" id="minute" placeholder="Min">
+
+          <input type="number" min="0" max="59" name="second" id="second" placeholder="Sec">
+
+          <select name="AMPM" id="AMPM">
+            <option value="AM">AM</option>
+            <option value="PM">PM</option>
+          </select>
+
+          <button type="button" class="btn2" onclick="setAlarm()"><i class="fa-solid fa-plus fa-xl"></i></button>
+
+        </form>
+        <br>
+        <hr><hr>
+
+      </div>
+      <h2>Alarms</h2>
+      <div class="listContainer">
+        
+        <ul id="alarmsList"></ul>
+      </div>
+      
+    </div>
+  </main>
+  <script src="script.js" type="text/javascript"></script>
+</body>
+</html>
