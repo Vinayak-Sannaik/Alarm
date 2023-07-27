@@ -1,6 +1,6 @@
 # Alarm ⏰⏰
 
-This is a simple alarm clock web application built lots of ❤ with little bit of HTML, CSS, and JavaScript.
+This is a simple alarm clock web application built with lots of ❤ and bit of HTML, CSS, and JavaScript.
 
 ## Features
 
