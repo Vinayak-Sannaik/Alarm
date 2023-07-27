@@ -123,6 +123,9 @@
     /* margin-top: 10px; */
     padding: 10px;
   }
+  h6{
+    font-size: 5px;
+  }
 
   ul {
     font-size: 25px;
